@@ -24,13 +24,13 @@ public class NumericComparisons {
     }
     public static void main(String[] args){
 
-        isZero(3);
-        isOdd(5);
-        isPositive(4);
-        isNegative(-1);
-        isNonNegative(-8);
-        isNonPositive(5);
-        
+        System.out.println(isZero(3));
+        System.out.println(isOdd(5));
+        System.out.println(isPositive(4));
+        System.out.println(isNegative(-1));
+        System.out.println(isNonNegative(-8));
+        System.out.println(isNonPositive(5));
+
 
     }
 }
