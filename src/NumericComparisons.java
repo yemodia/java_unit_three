@@ -16,11 +16,11 @@ public class NumericComparisons {
     }
 
     private static boolean isNonPositive(int num1){
-        return num1 >= 0;
+        return num1 <= 0;
     }
 
     private static boolean isNonNegative(int num1){
-        return num1 <= 0;
+        return num1 >= 0;
     }
     public static void main(String[] args){
 
