@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class SlopeOfALine {
-    private static String slopeM(int x1, int y1, int x2, int y2){
+    public static String slopeM(int x1, int y1, int x2, int y2){
         if (x1 == x2)
             return ("The line defined by the points (" + x1 + "," + y1 + ") and" +
                     " (" + x2 +"," + y2 + ") is a vertical line and the slope is undefined.");

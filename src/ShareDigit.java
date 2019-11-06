@@ -1,5 +1,5 @@
 public class ShareDigit {
-    private static Boolean sharedigit(int num1, int num2){
+    public static Boolean sharedigit(int num1, int num2){
         int leftNum1 = num1 / 10;
         int rightNum1 = num1 % 10;
 
