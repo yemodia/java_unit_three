@@ -22,7 +22,7 @@ public class RightTriangle {
         int c = scan.nextInt();
 
         System.out.print(isRight(a,b,c));
-        System.out.print(isTriangle(a,b,c));
+       isTriangle(a,b,c));
     }
 }
 
