@@ -1,4 +1,5 @@
-import java.util.Scanner;
+/*import java.util.Scanner;
+
 
 public class RightTriangle {
     private static Boolean isTriangle(int a, int b, int c) {
@@ -27,3 +28,4 @@ public class RightTriangle {
 }
 
 
+*/

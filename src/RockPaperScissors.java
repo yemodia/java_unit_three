@@ -33,19 +33,19 @@ public class RockPaperScissors {
     }
     private static String whoWins (String computerPick, String userPick){
         if (computerPick.equals(userPick))
-            return "You picked " + userPick + " and the computer picked " + computerPick + ". \nYou tied!";
+            return "You picked " + userPick + ". \nThe computer picked " + computerPick + ". \nYou tied!";
         else if (userPick.equals("paper") && computerPick.equals("rock"))
-            return "You picked " + userPick + " and the computer picked " + computerPick + ". \nYou win!! ";
+            return "You picked " + userPick + ". \nThe computer picked " + computerPick + ". \nYou win!! ";
         else if (userPick.equals("rock") && computerPick.equals("paper"))
-            return "You picked " + userPick + " and the computer picked " + computerPick + ". \nThe computer wins.";
+            return "You picked " + userPick + ". \nThe computer picked " + computerPick + ". \nThe computer wins.";
         else if (userPick.equals("scissors") && computerPick.equals("rock"))
-            return "You picked " + userPick + " and the computer picked " + computerPick + ". \nThe computer wins.";
+            return "You picked " + userPick + ". \nThe computer picked " + computerPick + ". \nThe computer wins.";
         else if (userPick.equals("rock") && computerPick.equals("scissors"))
-            return "You picked " + userPick + " and the computer picked " + computerPick + ". \nYou win!!";
+            return "You picked " + userPick + ". \nThe computer picked " + computerPick + ". \nYou win!!";
         else if (userPick.equals("paper") && computerPick.equals("scissors"))
-            return "You picked " + userPick + " and the computer picked " + computerPick + ". \nThe computer wins.";
+            return "You picked " + userPick + ". \nThe computer picked " + computerPick + ". \nThe computer wins.";
         else
-            return "You picked " + userPick + " and the computer picked " + computerPick + ". \nYou win!!";
+            return "You picked " + userPick + ". \nThe computer picked " + computerPick + ". \nYou win!!";
         //This method compares the user's pic and computer's pick and returns the winning player.
 
     }
